@@ -10,7 +10,6 @@ import {
   DiAws,
 } from "react-icons/di";
 import {
-  SiPytorch,
   SiFirebase,
   SiNextdotjs,
 } from "react-icons/si";
