@@ -35,7 +35,7 @@ function Projects() {
             <ProjectCard
               imgPath={LPImg}
               isBlog={false}
-              title="AsMS"
+              title="Logos and Posters"
               description="Designed logos for two industry scaled products - Opti-AI and AsMS.
               Sketched, designed and illustrated posters for some clubs, companies and student ventures namely - Opti-AI, Bu-Gamers, Digisoft IT Solutions etc."
               ghLink="https://github.com/IshaDabas/logos-posters-ui-ux"
@@ -54,7 +54,7 @@ function Projects() {
             <ProjectCard
               imgPath={NetflixImg}
               isBlog={false}
-              title="AsMS"
+              title="Nextflix"
               description="Developed a responsive react app like Netflix.
               Multiple profiles and authentication are implemented on firebase. 
               Data fetched from APIs and user data stored in the firestore database. 
