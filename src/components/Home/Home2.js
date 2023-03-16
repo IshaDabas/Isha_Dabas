@@ -27,7 +27,7 @@ function Home2() {
               <br />
               <br />I am fluent in
               <i>
-                <b className="purple"> Javascript, Typescript and C++. </b>
+                <b className="purple"> Javascript, Typescript, HTML, css. </b>
               </i>
               <br />
               <br />
