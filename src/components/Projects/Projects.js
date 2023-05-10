@@ -41,15 +41,7 @@ function Projects() {
               ghLink="https://github.com/IshaDabas/logos-posters-ui-ux"
             />
           </Col>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={NotesImg}
-              isBlog={false}
-              title="Notes App"
-              description="Customized take on the stereotypical notes app with innovative UI and gnarly features."
-              ghLink="https://github.com/IshaDabas/Notes_application"
-            />
-          </Col>
+          
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={NetflixImg}
