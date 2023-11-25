@@ -19,8 +19,8 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              Self-taught developer and designer with over 3 years of experience
-              in Web development and graphic designing. Performance and
+              Self-taught developer and designer with over 2 years of experience
+              in Web development. Performance and
               efficiency-oriented mindset with a focus on readability and
               customer/consumer satisfaction. Always keen on learning something
               new or improving by working on personal projects or reading blogs.
