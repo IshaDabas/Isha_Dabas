@@ -2,10 +2,11 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import AsMSImg from "../../Assets/AsMS_Logo.png"
-import LPImg from "../../Assets/Logos&PostersLogo.png"
-import NetflixImg from "../../Assets/NetflixLogo.png"
-import NotesImg from "../../Assets/NotesLogo.png"
+import AsMSImg from "../../Assets/AsMS_Logo.png";
+import LPImg from "../../Assets/Logos&PostersLogo.png";
+import Mudrabites from "../../Assets/MudraBites (2).png";
+import BookRecord from "../../Assets/BMS.png";
+import ToDO from "../../Assets/to-do.png";
 
 function Projects() {
   return (
@@ -41,17 +42,32 @@ function Projects() {
               ghLink="https://github.com/IshaDabas/logos-posters-ui-ux"
             />
           </Col>
-          
+
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={NetflixImg}
+              imgPath={Mudrabites}
               isBlog={false}
-              title="Nextflix"
-              description="Developed a responsive react app like Netflix.
-              Multiple profiles and authentication are implemented on firebase. 
-              Data fetched from APIs and user data stored in the firestore database. 
-              Payment is handled by the STRIPE payments gateway."
-              ghLink="https://github.com/IshaDabas/Nextflix-clone"
+              title="MudraBites"
+              description="Re-engineered the website using ReactJS and NodeJS, including a new logo and updated UI components. This overhaul modernizes the design, boosts user experience, and positions the site for future growth."
+              ghLink="https://github.com/IshaDabas/MudraBites"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={BookRecord}
+              isBlog={false}
+              title="BMS"
+              description="Re-engineered the website using ReactJS and NodeJS, including a new logo and updated UI components. This overhaul modernizes the design, boosts user experience, and positions the site for future growth."
+              ghLink="https://github.com/IshaDabas/MudraBites"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={ToDO}
+              isBlog={false}
+              title="To-Do List"
+              description="Re-engineered the website using ReactJS and NodeJS, including a new logo and updated UI components. This overhaul modernizes the design, boosts user experience, and positions the site for future growth."
+              ghLink="https://github.com/IshaDabas/MudraBites"
             />
           </Col>
         </Row>

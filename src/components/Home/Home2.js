@@ -19,23 +19,21 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              Self-taught developer and designer with over 2 years of experience
-              in Web development. Performance and
+              Self-taught developer and designer with more than 1 year of
+              experience in MERN Stack development. Performance and
               efficiency-oriented mindset with a focus on readability and
               customer/consumer satisfaction. Always keen on learning something
               new or improving by working on personal projects or reading blogs.
               <br />
               <br />I am fluent in
               <i>
-                <b className="purple"> Javascript, Typescript, HTML, css. </b>
+                <b className="purple"> React, Javascript, HTML, CSS. </b>
               </i>
               <br />
               <br />
               My field of Interest's are building new &nbsp;
               <i>
-                <b className="purple">Web Technologies and Products </b> and
-                also in areas related to{" "}
-                <b className="purple">Cyber Security</b>
+                <b className="purple">Web Technologies and Products </b>
               </i>
               <br />
               <br />
