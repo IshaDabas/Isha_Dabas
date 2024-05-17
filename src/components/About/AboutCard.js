@@ -10,8 +10,8 @@ function AboutCard() {
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple">Isha Dabas </span>
             from <span className="purple"> New Delhi, India.</span>
-            <br />I am a junior pursuing Bachelors in Computer Applications from Bennett
-            University.
+            <br />I completed my Bachelor's in Computer Applications (BCA) from
+            Bennett University in 2023.
             <br />
             <br />
             Apart from coding, some other activities that I love to do!

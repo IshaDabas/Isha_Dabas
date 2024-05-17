@@ -57,7 +57,7 @@ function Projects() {
               imgPath={BookRecord}
               isBlog={false}
               title="BMS"
-              description="Re-engineered the website using ReactJS and NodeJS, including a new logo and updated UI components. This overhaul modernizes the design, boosts user experience, and positions the site for future growth."
+              description="Created a Book Record Management System using NodeJS, MongoDB, ExpressJS."
               ghLink="https://github.com/IshaDabas/MudraBites"
             />
           </Col>
@@ -66,7 +66,7 @@ function Projects() {
               imgPath={ToDO}
               isBlog={false}
               title="To-Do List"
-              description="Re-engineered the website using ReactJS and NodeJS, including a new logo and updated UI components. This overhaul modernizes the design, boosts user experience, and positions the site for future growth."
+              description="Developed a To-Do List purely with HTML, CSS and JavaScript. You can create, update, delete and store you list of things-to-do!"
               ghLink="https://github.com/IshaDabas/MudraBites"
             />
           </Col>
