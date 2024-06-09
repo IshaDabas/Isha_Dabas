@@ -1,48 +1,105 @@
+
 import React from "react";
 import Particles from "react-tsparticles";
+import { loadFull } from "tsparticles";
 
-function Particle() {
+const Particle = () => {
+  const particlesInit = async (main) => {
+    // Load tsparticles full package
+    await loadFull(main);
+  };
+
+  const particlesLoaded = (container) => {
+    console.log(container);
+  };
+
   return (
     <Particles
       id="tsparticles"
-      params={{
+      init={particlesInit}
+      loaded={particlesLoaded}
+      options={{
         particles: {
           number: {
-            value: 160,
+            value: 50,
             density: {
               enable: true,
-              value_area: 1500,
+              value_area: 800,
             },
           },
-          line_linked: {
-            enable: false,
-            opacity: 0.03,
-          },
-          move: {
-            direction: "right",
-            speed: 0.05,
-          },
-          size: {
-            value: 1,
+          shape: {
+            type: "triangle",
           },
           opacity: {
+            value: 0.5,
+            random: true,
             anim: {
-              enable: true,
+              enable: false,
               speed: 1,
-              opacity_min: 0.05,
+              opacity_min: 0.1,
+              sync: false,
+            },
+          },
+          size: {
+            value: 10,
+            random: true,
+            anim: {
+              enable: false,
+              speed: 40,
+              size_min: 0.1,
+              sync: false,
+            },
+          },
+          move: {
+            enable: true,
+            speed: 6,
+            direction: "none",
+            random: false,
+            straight: false,
+            out_mode: "out",
+            bounce: false,
+            attract: {
+              enable: false,
+              rotateX: 600,
+              rotateY: 1200,
             },
           },
         },
         interactivity: {
+          detect_on: "canvas",
           events: {
+            onhover: {
+              enable: true,
+              mode: "repulse",
+            },
             onclick: {
               enable: true,
               mode: "push",
             },
+            resize: true,
           },
           modes: {
+            grab: {
+              distance: 400,
+              line_linked: {
+                opacity: 1,
+              },
+            },
+            bubble: {
+              distance: 400,
+              size: 40,
+              duration: 2,
+              opacity: 8,
+              speed: 3,
+            },
+            repulse: {
+              distance: 200,
+            },
             push: {
-              particles_nb: 1,
+              particles_nb: 4,
+            },
+            remove: {
+              particles_nb: 2,
             },
           },
         },
@@ -50,6 +107,6 @@ function Particle() {
       }}
     />
   );
-}
+};
 
 export default Particle;
