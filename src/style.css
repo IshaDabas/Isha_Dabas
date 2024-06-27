@@ -742,3 +742,26 @@ button:focus {
 .fork-btn-inner::after {
   display: none !important;
 }
+
+.contact-padding {
+  padding-top: 230px;
+  padding-bottom: 150px;
+}
+
+.con_ico {
+  margin-right: 15px; 
+}
+
+.con-det {
+  padding-bottom: 50px;
+}
+
+.con-det1 {
+  padding-bottom: 50px;
+  
+}
+
+.contact {
+  padding-top: 30px;
+}
+

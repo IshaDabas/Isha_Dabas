@@ -66,7 +66,7 @@ function Home2() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/IshaDabas/Isha_Dabas"
+                  href="https://github.com/IshaDabas"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -76,7 +76,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://twitter.com/IshaDabas10"
+                  href="https://x.com/The_Isha_Dabas"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
