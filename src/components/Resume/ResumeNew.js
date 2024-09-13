@@ -8,7 +8,7 @@ import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
 const resumeLink =
-  "https://isha-dabas.vercel.app/static/media/Isha%20Dabas.5f545cd4d6dfedd2ed26.pdf";
+  "https://isha-dabas.vercel.app/static/media/IshaDabas.32084a45b61e931b750a.pdf";
 
 function ResumeNew() {
   const [width, setWidth] = useState(1200);
