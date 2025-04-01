@@ -5,6 +5,8 @@ import AsMSImg from "../../Assets/AsMS_Logo.png";
 import LPImg from "../../Assets/Logos&PostersLogo.png";
 import Mudrabites from "../../Assets/MudraBites (2).png";
 import BookRecord from "../../Assets/BMS.png";
+import TSF from "../../Assets/edulogo.png";
+import Numo from "../../Assets/numo.png";
 
 function Projects() {
   return (
@@ -19,15 +21,22 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              isGit={true}
-              imgPath={AsMSImg}
+              isGit={false}
+              imgPath={Numo}
               isBlog={false}
-              title="AsMS"
-              description="Developed a responsive react app in Next with beautiful UI designed with Chakra.
-              Stores assets on S3 and interacts with the app using MongoDB.
-              Visualized cards for Assets in particular categories.
-              Last but not the least in app assets viewer(React Library)."
-              ghLink="https://github.com/Assets-Management-System/AsMS-Frontend"
+              title="Numousha"
+              description="Built a responsive one-page introductory web app for numerologist Usha Jain using React (Vite) and Tailwind CSS. Leveraging Vite, I optimized performance for fast loading and a seamless user experience."
+              ghLink="https://numousha.com/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              isGit={false}
+              imgPath={TSF}
+              isBlog={false}
+              title="TheStudyFalcon"
+              description="The Study Falcon is one of the most ambitious products of Damaso Digital Solutions Pvt. Ltd. which aims to establish a platform where a user can find quality and meaningful study material. It is founded and managed by a small team of students who has prepared for enough of such exams to know the needs, problems and solutions of aspirants."
+              ghLink="https://www.thestudyfalcon.com/"
             />
           </Col>
 
@@ -41,6 +50,21 @@ function Projects() {
               ghLink="https://www.nidhisoftwareguru.com/"
             />
           </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              isGit={true}
+              imgPath={AsMSImg}
+              isBlog={false}
+              title="AsMS"
+              description="Developed a responsive react app in Next with beautiful UI designed with Chakra.
+              Stores assets on S3 and interacts with the app using MongoDB.
+              Visualized cards for Assets in particular categories.
+              Last but not the least in app assets viewer(React Library)."
+              ghLink="https://github.com/Assets-Management-System/AsMS-Frontend"
+            />
+          </Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
               isGit={true}
