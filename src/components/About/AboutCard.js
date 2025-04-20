@@ -9,22 +9,25 @@ function AboutCard() {
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple">Isha Dabas </span>
-            from <span className="purple"> New Delhi, India.</span>
+            from <span className="purple"> Holly Springs, NC, USA.</span>
             <br />I completed my Bachelor's in Computer Applications (BCA) from
-            Bennett University in 2023.
+            Bennett University, Greater Noida, India in 2023.
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Playing Video Games and Basketball
+              <ImPointRight /> Playing Competitive FPS Games, Video Games.
+            </li>
+            <li className="about-activity">
+              <ImPointRight /> Studying
             </li>
             <li className="about-activity">
               <ImPointRight /> Sketching
             </li>
             <li className="about-activity">
-              <ImPointRight /> Event Management
+              <ImPointRight /> Cooking
             </li>
           </ul>
 

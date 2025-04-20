@@ -9,7 +9,6 @@ import { FaLinkedinIn } from "react-icons/fa";
 import { BsMailbox } from "react-icons/bs";
 import { ImLocation } from "react-icons/im";
 
-
 function Contact() {
   return (
     <section>
@@ -28,12 +27,12 @@ function Contact() {
                     sx={{ fontSize: 45 }}
                   />
                   <a
-                    href="mailto: ishaadabas007@gmail.com"
+                    href="mailto: ishadabas26001@gmail.com"
                     target="_blank"
                     rel="noreferrer"
                     className="con-det1"
                   >
-                    ishaadabas007@gmail.com
+                    ishadabas26001@gmail.com
                   </a>
                 </div>
                 <div>
@@ -42,7 +41,7 @@ function Contact() {
                     className="con_ico"
                     sx={{ fontSize: 45 }}
                   />
-                  <p className="con-det">New Delhi, India</p>
+                  <p className="con-det">Holly Springs, NC</p>
                 </div>
               </div>
               <h1>FIND ME ON</h1>

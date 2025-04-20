@@ -99,10 +99,7 @@ function NavBar() {
                 to="/contact"
                 onClick={() => updateExpanded(false)}
               >
-                <AiOutlineContacts
-                  style={{ marginBottom: "2px" }}
-                />{" "}
-                Contact
+                <AiOutlineContacts style={{ marginBottom: "2px" }} /> Contact
               </Nav.Link>
             </Nav.Item>
 
@@ -118,7 +115,7 @@ function NavBar() {
 
             <Nav.Item className="fork-btn">
               <Button
-                href="https://github.com/IshaDabas/Isha_Dabas"
+                href="https://github.com/IshaDabas"
                 target="_blank"
                 className="fork-btn-inner"
               >

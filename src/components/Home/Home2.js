@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.png";
+import myImg from "../../Assets/avatar.JPG";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
@@ -19,11 +19,12 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              Self-taught developer and designer with more than 1 year of
-              experience in MERN Stack development. Performance and
-              efficiency-oriented mindset with a focus on readability and
-              customer/consumer satisfaction. Always keen on learning something
-              new or improving by working on personal projects or reading blogs.
+              Self-taught Developer and Designer with upto 2 years of hands-on
+              experience in MERN Stack development. Driven by performance and
+              efficiency, with a strong focus on clean, maintainable code and
+              delivering user-centric solutions. Committed to continuous
+              learning through personal projects, technical blogs, and staying
+              current with industry trends.
               <br />
               <br />I am fluent in
               <i>
