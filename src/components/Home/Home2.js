@@ -19,12 +19,20 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              Self-taught Developer and Designer with upto 2 years of hands-on
-              experience in MERN Stack development. Driven by performance and
-              efficiency, with a strong focus on clean, maintainable code and
-              delivering user-centric solutions. Committed to continuous
-              learning through personal projects, technical blogs, and staying
-              current with industry trends.
+              <span className="purple">MERN Stack Developer </span>
+              with nearly 2 years of hands-on experience building responsive,
+              high-performance web applications using{" "}
+              <span className="purple">
+                MongoDB, Express.js, React.js, and Node.js
+              </span>
+              . Recently earned a{" "}
+              <span className="purple">Digital Marketing Certification</span>{" "}
+              from HubSpot Academy, adding valuable skills in SEO, content
+              strategy, and analytics to complement my technical expertise.
+              Known for writing clean, maintainable code and delivering
+              intuitive, user-focused interfaces. Quick to adapt and always
+              eager to learn, I thrive in collaborative environments where I can
+              contribute to impactful, cross-functional projects.
               <br />
               <br />I am fluent in
               <i>
@@ -34,7 +42,10 @@ function Home2() {
               <br />
               My field of Interest's are building new &nbsp;
               <i>
-                <b className="purple">Web Technologies and Products </b>
+                <b className="purple">
+                  Web Designs, SEO, Social Media Marketing, Digital Marketing,
+                  etc.{" "}
+                </b>
               </i>
               <br />
               <br />
@@ -48,7 +59,7 @@ function Home2() {
               </i>
               &nbsp; like
               <i>
-                <b className="purple"> React.js and Next.js</b>
+                <b className="purple"> React.js</b>
               </i>
             </p>
           </Col>
